@@ -24,6 +24,18 @@
 - We learned flask how to integrate a ML model with the client end.
 - We learned about the pickle package in Python, which is used for prediction.
 
+## 📧 Use of Twilio
+- We used Twilio to send mine vs rock report to our users. 
+- Twilio is safe and secure API for sending text messages.
+
+## ☁️ Use of Google Cloud
+- Google Cloud offers Machine Learning and Deep Learning models.
+- We used google cloud logistic regression machine learning model to train our model.
+
+## 📖 Use of deso
+- Deso is a decentralized social application and it is open source & on chain open data
+- We used deso for login, logout purpose and also for transactions occurs in our website.
+
 ## 🚀 What's next for Dodge Mine
 - To upload input data as a file format.
 - To feed the model with more datasets and to increase its accuracy.
