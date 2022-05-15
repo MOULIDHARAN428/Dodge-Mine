@@ -32,7 +32,7 @@
 - Google Cloud offers Machine Learning and Deep Learning models.
 - We used google cloud logistic regression machine learning model to train our model.
 
-## 📖 Use of deso
+## 📖 Use of Deso
 - Deso is a decentralized social application and it is open source & on chain open data
 - We used deso for login, logout purpose and also for transactions occurs in our website.
 
