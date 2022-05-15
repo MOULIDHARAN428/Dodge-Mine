@@ -1,0 +1,56 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dodge Mine</title>
+    <link href="{{ url_for('static',filename='styles/templatemo_style.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/tabcontent.css') }}"/>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/tabcontent.js') }}"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="header_doge">
+    	<div class="title_doge">
+			<h1>Dodge Mine</h1></div>
+    </div>
+    
+    <div id="templatemo_menu_panel">
+    	<div id="templatemo_menu_section">
+            <ul>
+                <li><a href="index">Home</a></li>
+                <li><a href="predict" >Predict</a></li>
+                <li><a href="#" class="current">Instructions</a></li>
+                <li><a href="about">About</a></li>
+            </ul> 
+		</div>
+    </div>
+    
+	<div id="templatemo_content_container" style="color:white;">
+        <div id="templatemo_content">
+            <h3>Welcome "User"</h3>
+            <h4 style="padding-top:15px;">How to avoid marine mines while still getting to your destination.</h4>
+            <h4 style="padding-top:15px;padding-bottom:15px;">By observing the differences, you can ensure that sonar inputs are being received appropriately.</h4>
+            <img src="static/images/ins.gif" style="width:270px;height:270px;"/>
+            <div class="templatemo_right_section">
+                <!-- <img src="static/images/sonar.gif" style="width:180px;height:125px;"/> -->
+                <ul>
+                    <li><a>When you first visit the portal, you will see facts, instructions, and a prediction choice.</a></li>
+                    <li><a>Simply select the prediction option and follow the instructions outlined below.</a></li>
+                    <img src="static/images/ins-2.gif" style="width:350px;height:320px;padding-top:20px;padding-bottom:20px;"/>
+                    <li><a>Take the sonar inputs and place them in the sonar input boxes provided.</a></li>
+                    <li><a>On your next move, the trained ML model will compute and show you whether a marine mine or rock is there.</a></li>
+                    <img src="static/images/ins-1.gif" style="width:400px;height:320px;padding-top:20px;padding-bottom:20px;"/>
+                    <li><a>This allows you to dodge marine mines and arrive at your destination safely.</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    
+    <div id="templatemo_footer_panel">
+        <div id="templatemo_footer_section">
+            Copyright © 2022 <a href="#">Dodge Mine</a>
+        </div>
+    </div>
+</html>
